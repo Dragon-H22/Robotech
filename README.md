@@ -1,2 +1,2 @@
 # Robotech
-### hardware circuits
+### Hardware Circuits
