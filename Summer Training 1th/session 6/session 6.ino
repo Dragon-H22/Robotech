@@ -1,7 +1,7 @@
-session6
+//session6
 /*************/
-pract1
-*********
+/*pract1
+**********/
 #include <ESP8266WiFi.h>
 String apiWritekey = "ZITS4JAW5THXT4VK"; // replace with your THINGSPEAK WRITEAPI key here
 const char* ssid = "Supernet"; // your wifi SSID name
@@ -76,9 +76,11 @@ void loop() {
  // thingspeak needs minimum 15 sec delay between updates
 // delay(15000);
 }
-******************************************************************************************************************************
+
+/******************************************************************************************************************************
 pract2
-********
+********/
+
 #include "UbidotsESPMQTT.h"
 #define TOKEN "BBFF-MumnFdt3HttgT3pvSRHk9BtMigTNWB"     // Your Ubidots TOKEN
 #define WIFINAME "Not for you"  // Your SSID
